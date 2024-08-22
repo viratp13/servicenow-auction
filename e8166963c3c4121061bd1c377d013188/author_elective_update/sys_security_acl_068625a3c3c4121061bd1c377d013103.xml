@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for records in x_1520630_auction_product, for users with role x_1520630_auction.admin.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1520630_auction_product</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 05:05:32</sys_created_on>
+        <sys_id>068625a3c3c4121061bd1c377d013103</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1520630_auction_product</sys_name>
+        <sys_package display_value="auction" source="x_1520630_auction">e8166963c3c4121061bd1c377d013188</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="auction">e8166963c3c4121061bd1c377d013188</sys_scope>
+        <sys_update_name>sys_security_acl_068625a3c3c4121061bd1c377d013103</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:59:41</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="auction">e8166963c3c4121061bd1c377d013188</application>
+        <file_path/>
+        <instance_id>89eb216adbc94a5802022a5913961943</instance_id>
+        <instance_name>dev249102</instance_name>
+        <name>sys_security_acl_068625a3c3c4121061bd1c377d013103</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>Allow write for records in x_1520630_auction_product, for users with role x_1520630_auction.admin.</description><local_or_existing>Local</local_or_existing><name>x_1520630_auction_product</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 05:05:32</sys_created_on><sys_id>068625a3c3c4121061bd1c377d013103</sys_id><sys_mod_count>4</sys_mod_count><sys_name>x_1520630_auction_product</sys_name><sys_package display_value="auction" source="x_1520630_auction">e8166963c3c4121061bd1c377d013188</sys_package><sys_policy/><sys_scope display_value="auction">e8166963c3c4121061bd1c377d013188</sys_scope><sys_update_name>sys_security_acl_068625a3c3c4121061bd1c377d013103</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 05:59:41</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1088908335</payload_hash>
+        <record_name>x_1520630_auction_product</record_name>
+        <reverted_from/>
+        <source>949ce5abc3c4121061bd1c377d013166</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 05:59:41</sys_created_on>
+        <sys_id>97e2f967c308121061bd1c377d0131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19178ab5a220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:59:41</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>1fe2f9670608121041defab10ab55cb5</update_guid>
+        <update_guid_history>1fe2f9670608121041defab10ab55cb5:-1088908335,eb42fd27ac08121047d8b6f73611c0a4:1792488665,b9be6dafdfc4121007f4d03bd230cb92:-2014811464,ce8625a397c41210f91e59338355ee04:-481263961</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:23:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0a0d39665386495493a1778c05a04af1</sys_id>
+        <sys_metadata>068625a3c3c4121061bd1c377d013103</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1520630_auction_product</sys_name>
+        <sys_package display_value="auction" source="x_1520630_auction">e8166963c3c4121061bd1c377d013188</sys_package>
+        <sys_parent display_value="x_1520630_auction_product">1d86a1a3c3c4121061bd1c377d0131e6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="auction">e8166963c3c4121061bd1c377d013188</sys_scope>
+        <sys_scope_delete display_value="">40415d60f7284360974922ad66b14251</sys_scope_delete>
+        <sys_update_name>sys_security_acl_068625a3c3c4121061bd1c377d013103</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_068625a3c3c4121061bd1c377d013103">97e2f967c308121061bd1c377d0131b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 06:23:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
