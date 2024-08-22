@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1986a1a3c3c4121061bd1c377d0131e4" label="product" max_length="40" name="x_1520630_auction_product" type="collection">
+        <element label="description" max_length="400" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
