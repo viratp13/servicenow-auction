@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1986a1a3c3c4121061bd1c377d0131e4" label="product" max_length="40" name="x_1520630_auction_product" type="collection">
-        <element label="Start time" max_length="40" name="start_time" type="glide_date_time"/>
-        <element label="description" max_length="400" name="description" type="string"/>
-        <element label="image" max_length="40" name="image" type="user_image"/>
-        <element label="Incremental amount" max_length="20" name="incremental_amount" type="decimal"/>
-        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
-        <element label="End time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="Start time" mandatory="true" max_length="40" name="start_time" type="glide_date_time"/>
+        <element label="Description" mandatory="true" max_length="400" name="description" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Incremental amount" mandatory="true" max_length="20" name="incremental_amount" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="End time" mandatory="true" max_length="40" name="end_time" type="glide_date_time"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Starting price" max_length="20" name="starting_price" type="decimal"/>
+        <element label="Starting price" mandatory="true" max_length="20" name="starting_price" type="decimal"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

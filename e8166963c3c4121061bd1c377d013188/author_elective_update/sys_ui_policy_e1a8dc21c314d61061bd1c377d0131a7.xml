@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Control Start Time with Checkbox</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 04:33:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1a8dc21c314d61061bd1c377d0131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Control Start Time with Checkbox</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="auction" source="x_1520630_auction">e8166963c3c4121061bd1c377d013188</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="auction">e8166963c3c4121061bd1c377d013188</sys_scope>
+        <sys_update_name>sys_ui_policy_e1a8dc21c314d61061bd1c377d0131a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 04:33:44</sys_updated_on>
+        <table>x_1520630_auction_product</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="auction">e8166963c3c4121061bd1c377d013188</application>
+        <file_path/>
+        <instance_id>89eb216adbc94a5802022a5913961943</instance_id>
+        <instance_name>dev249102</instance_name>
+        <name>sys_ui_policy_e1a8dc21c314d61061bd1c377d0131a7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Control Start Time with Checkbox&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-28 04:33:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e1a8dc21c314d61061bd1c377d0131a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Control Start Time with Checkbox&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="auction" source="x_1520630_auction"&gt;e8166963c3c4121061bd1c377d013188&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="auction"&gt;e8166963c3c4121061bd1c377d013188&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_e1a8dc21c314d61061bd1c377d0131a7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-28 04:33:44&lt;/sys_updated_on&gt;&lt;table&gt;x_1520630_auction_product&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>90163479</payload_hash>
+        <record_name>Control Start Time with Checkbox</record_name>
+        <reverted_from/>
+        <source>949ce5abc3c4121061bd1c377d013166</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 04:33:44</sys_created_on>
+        <sys_id>aec8d061c314d61061bd1c377d013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1919742d0d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 04:33:44</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>a2c8d061c214d61014a2b00370713333</update_guid>
+        <update_guid_history>a2c8d061c214d61014a2b00370713333:90163479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 05:08:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>5b49ca3699fd4060988a2ce591f06c40</sys_id>
+        <sys_metadata>e1a8dc21c314d61061bd1c377d0131a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Control Start Time with Checkbox</sys_name>
+        <sys_package display_value="auction" source="x_1520630_auction">e8166963c3c4121061bd1c377d013188</sys_package>
+        <sys_parent display_value="product">1986a1a3c3c4121061bd1c377d0131e4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="auction">e8166963c3c4121061bd1c377d013188</sys_scope>
+        <sys_scope_delete display_value="">40415d60f7284360974922ad66b14251</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_e1a8dc21c314d61061bd1c377d0131a7</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_e1a8dc21c314d61061bd1c377d0131a7">aec8d061c314d61061bd1c377d013133</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 05:08:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

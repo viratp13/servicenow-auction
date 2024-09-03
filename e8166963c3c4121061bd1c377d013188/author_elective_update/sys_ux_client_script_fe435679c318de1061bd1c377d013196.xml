@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="buyer">09206a6fc34c121061bd1c377d013102</macroponent>
+        <name>rich_text_7/html</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({ api, helpers }) {
+    const productData = api.data.productData;
+    const endTimeStr = api.data.look_up_a_single_record_1.result.start_time.displayValue;
+
+    // Parse the endTime string into a Date object
+    const endTime = new Date(endTimeStr).getTime();
+    const now = new Date().getTime();
+
+    const distance = endTime - now;
+
+    if (distance < 0) {
+        return "Auction Ended";
+    } else {
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 13:50:36</sys_created_on>
+        <sys_id>fe435679c318de1061bd1c377d013196</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>rich_text_7/html</sys_name>
+        <sys_package display_value="auction" source="x_1520630_auction">e8166963c3c4121061bd1c377d013188</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="auction">e8166963c3c4121061bd1c377d013188</sys_scope>
+        <sys_update_name>sys_ux_client_script_fe435679c318de1061bd1c377d013196</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 13:53:31</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="auction">e8166963c3c4121061bd1c377d013188</application>
+        <file_path/>
+        <instance_id>89eb216adbc94a5802022a5913961943</instance_id>
+        <instance_name>dev249102</instance_name>
+        <name>sys_ux_client_script_fe435679c318de1061bd1c377d013196</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="buyer"&gt;09206a6fc34c121061bd1c377d013102&lt;/macroponent&gt;&lt;name&gt;rich_text_7/html&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({ api, helpers }) {
+    const productData = api.data.productData;
+    const endTimeStr = api.data.look_up_a_single_record_1.result.start_time.displayValue;
+
+    // Parse the endTime string into a Date object
+    const endTime = new Date(endTimeStr).getTime();
+    const now = new Date().getTime();
+
+    const distance = endTime - now;
+
+    if (distance &lt; 0) {
+        return "Auction Ended";
+    } else {
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }
+}
+]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-29 13:50:36&lt;/sys_created_on&gt;&lt;sys_id&gt;fe435679c318de1061bd1c377d013196&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;rich_text_7/html&lt;/sys_name&gt;&lt;sys_package display_value="auction" source="x_1520630_auction"&gt;e8166963c3c4121061bd1c377d013188&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="auction"&gt;e8166963c3c4121061bd1c377d013188&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_fe435679c318de1061bd1c377d013196&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-29 13:53:31&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1659450549</payload_hash>
+        <record_name>rich_text_7/html</record_name>
+        <reverted_from/>
+        <source>949ce5abc3c4121061bd1c377d013166</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 13:53:31</sys_created_on>
+        <sys_id>d082aff5c394525061bd1c377d01313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1919e69aea80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 13:53:31</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>5882aff58e945250b0559c118265f339</update_guid>
+        <update_guid_history>5882aff58e945250b0559c118265f339:-1659450549,f5d1ef75a69452503994172f9d868950:921453261</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 13:56:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2ae50811ef5549c2b149e45dcc528464</sys_id>
+        <sys_metadata>fe435679c318de1061bd1c377d013196</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rich_text_7/html</sys_name>
+        <sys_package display_value="auction" source="x_1520630_auction">e8166963c3c4121061bd1c377d013188</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="auction">e8166963c3c4121061bd1c377d013188</sys_scope>
+        <sys_scope_delete display_value="">40415d60f7284360974922ad66b14251</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_fe435679c318de1061bd1c377d013196</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_fe435679c318de1061bd1c377d013196">d082aff5c394525061bd1c377d01313a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 13:56:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

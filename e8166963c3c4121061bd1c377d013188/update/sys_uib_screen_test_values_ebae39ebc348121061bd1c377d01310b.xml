@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{}</macroponent_config>
+        <screen display_value="Default">2fae39ebc348121061bd1c377d013107</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 06:51:02</sys_created_on>
+        <sys_id>ebae39ebc348121061bd1c377d01310b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="auction" source="x_1520630_auction">e8166963c3c4121061bd1c377d013188</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="auction">e8166963c3c4121061bd1c377d013188</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_ebae39ebc348121061bd1c377d01310b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 08:25:56</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

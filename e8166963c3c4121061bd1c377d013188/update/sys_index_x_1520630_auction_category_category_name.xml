@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>category_name</col_name_string>
+        <index_col_name element="category_name" name="x_1520630_auction_category">ead19b7cc318921061bd1c377d0131a0</index_col_name>
+        <logical_table_name>x_1520630_auction_category</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-26 11:29:18</sys_created_on>
+        <sys_id>72b42f74c39c921061bd1c377d013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1520630_auction_category</sys_name>
+        <sys_package display_value="auction" source="x_1520630_auction">e8166963c3c4121061bd1c377d013188</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="auction">e8166963c3c4121061bd1c377d013188</sys_scope>
+        <sys_update_name>sys_index_x_1520630_auction_category_category_name</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-26 11:29:18</sys_updated_on>
+        <table display_value="category" name="x_1520630_auction_category">67c15b7cc318921061bd1c377d0131a8</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2617d374c358921061bd1c377d013113" label="product_category_mapping" max_length="40" name="x_1520630_auction_product_category_mapping" type="collection">
+        <element label="product" max_length="32" name="product" reference="x_1520630_auction_product" type="reference"/>
+        <element label="Category" mandatory="true" max_length="32" name="category" reference="x_1520630_auction_category" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="category"/>
+        </index>
+        <index name="index2">
+            <element name="product"/>
+        </index>
+    </element>
+</database>

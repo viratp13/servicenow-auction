@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="67c15b7cc318921061bd1c377d0131a8" label="category" max_length="40" name="x_1520630_auction_category" type="collection">
+        <element display="true" label="Category name" mandatory="true" max_length="100" name="category_name" read_only="true" type="string"/>
+        <index name="index" unique="true">
+            <element name="category_name"/>
+        </index>
+    </element>
+</database>

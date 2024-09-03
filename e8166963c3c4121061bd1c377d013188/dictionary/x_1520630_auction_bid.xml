@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="17fdd6abc34c121061bd1c377d013130" label="bid" max_length="40" name="x_1520630_auction_bid" type="collection">
+        <element label="product" max_length="32" name="product" reference="x_1520630_auction_product" type="reference"/>
+        <element label="Bid amount" max_length="20" name="bid_amount" type="decimal"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+    </element>
+</database>
